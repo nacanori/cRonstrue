@@ -3,6 +3,7 @@ export { de } from "./locales/de" // German
 export { es } from "./locales/es" // Spanish
 export { fr } from "./locales/fr" // French
 export { it } from "./locales/it" // Italian
+export { ja } from "./locales/ja" // Japanese
 export { nl } from "./locales/nl" // Dutch
 export { nb } from "./locales/nb" // Norwegian
 export { sv } from "./locales/sv" // Swedish

@@ -43,6 +43,16 @@ describe("i18n", function () {
         });
     });
 
+    describe("ja", function () {
+        it("* * * * *", function () {
+            assert.equal(construe.toString("* * * * *", { locale: "ja" }), "毎分");
+        });
+
+        it("*/5 15 * * MON-FRI", function () {
+            assert.equal(construe.toString("*/5 15 * * MON-FRI", { locale: "ja" }), "5 分毎, 03:00 PM に, 月曜 から 金曜");
+        });
+    });
+
     describe("nb", function () {
         it("* * * * *", function () {
             assert.equal(construe.toString("* * * * *", { locale: "nb" }), "Hvert minutt");

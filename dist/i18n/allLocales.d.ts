@@ -3,6 +3,7 @@ export { de } from "./locales/de";
 export { es } from "./locales/es";
 export { fr } from "./locales/fr";
 export { it } from "./locales/it";
+export { ja } from "./locales/ja";
 export { nl } from "./locales/nl";
 export { nb } from "./locales/nb";
 export { sv } from "./locales/sv";
